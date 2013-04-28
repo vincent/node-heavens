@@ -1,0 +1,30 @@
+{
+  "name": "heavens",
+  "version": "0.0.0",
+  "description": "A simple wrapper to Heavens Above",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vincent/node-heavens.git"
+  },
+  "keywords": [
+    "jamendo"
+  ],
+  "author": "Vincent Lark vincent.lark@gmail.com",
+  "license": "BSD",
+  "dependencies": {
+    "request": "~2.20.0",
+    "cheerio": "~0.11.0"
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "grunt": ">= 0.4.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-shell": "~0.2.2"
+  },
+  "readmeFilename": "Readme.md",
+  "gitHead": ""
+}
